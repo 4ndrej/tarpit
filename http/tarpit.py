@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # http tarpit
 # 
 # stolen from Chris Wellons, wellons@nullprogram.com
