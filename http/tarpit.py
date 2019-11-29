@@ -22,7 +22,7 @@ async def handler(_reader, writer):
 
 async def main():
     port = 1984
-    print("http tarpit, listening at http://127.0.0.1:{}/".format(port))
+    print("http tarpit, listening at http://127.0.0.1:%d/" % port)
     server = await asyncio.start_server(handler, '0.0.0.0', port)
     async with server:
         await server.serve_forever()
