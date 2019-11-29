@@ -5,6 +5,7 @@ various tarpits for fighting script kiddies back
 
 ### ./http/tarpit.py
 * python3 code stolen from https://nullprogram.com/blog/2019/03/22/
+* more info at https://news.ycombinator.com/item?id=19465967
 * run as
 
     ./tarpit.py
